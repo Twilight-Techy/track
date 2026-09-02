@@ -215,6 +215,7 @@ export function Footer({ scrollTo }) {
         </div>
         <div className="foot-bottom">
           <span>© 2026 TRACK. All rights reserved.</span>
+          <span>Built for clarity.</span>
         </div>
       </div>
     </footer>
