@@ -1,4 +1,4 @@
-# TRACK — A clearer picture of your business
+# TRACK · A clearer picture of your business
 
 An award-style marketing site for **TRACK**, a business-clarity platform. Built from a static
 design mock and elevated with motion design: preloader, smooth scrolling, line-mask headline
@@ -7,8 +7,8 @@ reveals, magnetic buttons, a custom cursor, scroll-linked charts and a business-
 ## Stack
 
 - [React 18](https://react.dev) + [Vite 5](https://vitejs.dev)
-- [Framer Motion](https://www.framer.com/motion/) — reveals, scroll-linked animation, gauge/charts
-- [Lenis](https://github.com/darkroomengineering/lenis) — smooth scrolling
+- [Framer Motion](https://www.framer.com/motion/): reveals, scroll-linked animation, gauge/charts
+- [Lenis](https://github.com/darkroomengineering/lenis): smooth scrolling
 - Fraunces (display serif) + Inter (UI) via Google Fonts
 
 ## Getting started
@@ -27,8 +27,8 @@ npm run preview  # preview the production build
 - **Gold marquee** band, pausable on hover
 - **Sticky two-column** "TRACK approach" with a scroll-drawn timeline
 - **Scroll-linked progress line** across the four "How it works" steps
-- **Animated snapshot dashboard** — bar chart, highlights, count-up metrics
-- **Business Health Score** — animated SVG gauge (72/100) + dimension bars
+- **Animated snapshot dashboard**: bar chart, highlights, count-up metrics
+- **Business Health Score**: animated SVG gauge (72/100) + dimension bars
 - **Waitlist form** with success state, full-screen mobile menu, custom cursor, grain overlay
 - `prefers-reduced-motion` respected throughout
 
@@ -49,4 +49,4 @@ src/
 
 ## Design tokens
 
-Navy `#0d2132` · Gold `#c9972c` · Cream `#f6f1e6` — Fraunces for display, Inter for UI.
+Navy `#0d2132` · Gold `#c9972c` · Cream `#f6f1e6`; Fraunces for display, Inter for UI.

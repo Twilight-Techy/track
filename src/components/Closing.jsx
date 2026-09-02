@@ -20,7 +20,7 @@ export function GoDeeper({ scrollTo }) {
           <SectionHead
             eyebrow="Go deeper"
             title="Want to go a step further?"
-            sub="With a 1-on-1 business health session, we walk through your snapshot together — what's working, what's leaking, and what deserves your attention first."
+            sub="With a 1-on-1 business health session, we walk through your snapshot together: what's working, what's leaking, and what deserves your attention first."
           />
           <div className="d-steps">
             {DSTEPS.map((s, i) => (
@@ -72,7 +72,7 @@ export function GoDeeper({ scrollTo }) {
 /* ================= WHY TRACK ================= */
 
 const WHY = [
-  { icon: 'eye', t: 'Clear', d: 'One readable picture of the business — not a pile of dashboards.' },
+  { icon: 'eye', t: 'Clear', d: 'One readable picture of the business, not a pile of dashboards.' },
   { icon: 'bulb', t: 'Practical', d: 'Built for how real businesses operate. No jargon, no theatre.' },
   { icon: 'heart', t: 'Thoughtful', d: 'Designed to respect your attention. Only what matters surfaces.' }
 ]

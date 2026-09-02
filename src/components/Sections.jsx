@@ -5,7 +5,7 @@ import { motion, useScroll, useSpring } from 'framer-motion'
 /* ================= PROBLEM ================= */
 
 const PROBLEMS = [
-  { icon: 'cash', t: 'Revenue & Expenses', d: 'Money moves in and out across accounts, notebooks and apps — never in one place.' },
+  { icon: 'cash', t: 'Revenue & Expenses', d: 'Money moves in and out across accounts, notebooks and apps, never in one place.' },
   { icon: 'eye', t: 'Customer Visibility', d: 'You know your regulars, but not how their buying is quietly changing.' },
   { icon: 'box', t: 'Inventory & Outputs', d: 'Stock and output get tracked in fragments, so surprises arrive late.' },
   { icon: 'compass', t: 'Decision Making', d: 'Choices get made on memory and mood instead of a clear picture.' }
@@ -44,7 +44,7 @@ export function Problem() {
 
 const STEPS = [
   { t: 'Add financial data', d: 'Connect accounts or record sales and expenses in seconds.' },
-  { t: 'Track revenue & expenses', d: 'Money in, money out — structured automatically.' },
+  { t: 'Track revenue & expenses', d: 'Money in, money out, structured automatically.' },
   { t: 'Monitor cashflow', d: 'See what you have on hand and what is coming next.' },
   { t: 'Identify risks', d: 'Flags surface the changes that deserve your attention.' },
   { t: 'Stay aligned', d: 'Share one picture with the people who matter.' }

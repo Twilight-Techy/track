@@ -52,7 +52,7 @@ export function Hero({ ready, scrollTo }) {
           </h1>
           <FadeUp play={ready} delay={0.55}>
             <p className="hero-sub">
-              TRACK brings your financial and operational information together into one simple, structured view — so you
+              TRACK brings your financial and operational information together into one simple, structured view, so you
               can understand performance, spot issues early, and make decisions with confidence.
             </p>
           </FadeUp>
@@ -86,7 +86,7 @@ export function Hero({ ready, scrollTo }) {
           >
             <div className="dash-top">
               <span className="d-dot r" /><span className="d-dot y" /><span className="d-dot g" />
-              <span className="dash-title">TRACK — Overview</span>
+              <span className="dash-title">TRACK · Overview</span>
               <span className="dash-live"><i />Live</span>
             </div>
             <div className="dash-stats cols-3">

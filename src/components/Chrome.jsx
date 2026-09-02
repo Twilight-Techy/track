@@ -183,7 +183,7 @@ export function Footer({ scrollTo }) {
           <a className="logo" href="#top" onClick={(e) => go(e, '#top')}>
             TRACK<span>.</span>
           </a>
-          <p className="foot-tag">One clear picture of your business — so the next decision comes easier.</p>
+          <p className="foot-tag">One clear picture of your business, so the next decision comes easier.</p>
           <button className="top-btn" onClick={() => scrollTo('#top')} aria-label="Back to top" data-hover>
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
               <path d="M8 13V3M4 7l4-4 4 4" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />

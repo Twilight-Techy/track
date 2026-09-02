@@ -5,10 +5,10 @@ import { EASE, FadeUp, SectionHead, Icon, Arrow, Magnetic, CountStat, useCountUp
 /* ================= HOW IT WORKS ================= */
 
 const HOW = [
-  { n: '01', t: 'Connect / Record', d: 'Bring sales, expenses and operations into one place — spreadsheets, POS exports or quick entries.' },
+  { n: '01', t: 'Connect / Record', d: 'Bring sales, expenses and operations into one place: spreadsheets, POS exports or quick entries.' },
   { n: '02', t: 'Understand', d: 'TRACK structures everything into a clear, readable view of your business.' },
   { n: '03', t: 'Identify', d: 'Patterns, risks and opportunities surface on their own.' },
-  { n: '04', t: 'Act', d: 'Decide with confidence — and watch the picture improve week by week.' }
+  { n: '04', t: 'Act', d: 'Decide with confidence and watch the picture improve week by week.' }
 ]
 
 export function HowItWorks() {
@@ -63,13 +63,13 @@ export function Snapshot() {
         <SectionHead
           eyebrow="Business health snapshot"
           title="Your business, in one clearer view."
-          sub="Sample view — the weekly snapshot of a business running on TRACK."
+          sub="Sample view: the weekly snapshot of a business running on TRACK."
         />
         <FadeUp delay={0.15} y={44}>
           <div className="dash" data-hover>
             <div className="dash-top">
               <span className="d-dot r" /><span className="d-dot y" /><span className="d-dot g" />
-              <span className="dash-title">TRACK — Business Snapshot · Week 24</span>
+              <span className="dash-title">TRACK · Business Snapshot · Week 24</span>
               <span className="dash-live"><i />Updated today</span>
             </div>
             <div className="dash-body">
@@ -187,7 +187,7 @@ export function Health({ scrollTo }) {
             eyebrow="Business health score"
             tone="light"
             title="How well do you understand your business today?"
-            sub="Take the free assessment and get your Business Health Score instantly — across the six dimensions every healthy business tracks."
+            sub="Take the free assessment and get your Business Health Score instantly, across the six dimensions every healthy business tracks."
           />
           <FadeUp delay={0.3}>
             <Magnetic>
