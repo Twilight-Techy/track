@@ -215,7 +215,6 @@ export function Footer({ scrollTo }) {
         </div>
         <div className="foot-bottom">
           <span>© 2026 TRACK. All rights reserved.</span>
-          <span>Lagos, Nigeria — built for clarity.</span>
         </div>
       </div>
     </footer>
